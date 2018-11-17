@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/hife/kong-plugin-cluster-redirect.svg?branch=master)](https://travis-ci.org/hife/kong-plugin-cluster-redirect)
+
 Kong Plugin - Cluster Redirect
 ==============================
 
