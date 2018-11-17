@@ -69,7 +69,7 @@ function plugin:access(plugin_conf)
   end 
   
   -- Cluster redirect
-  redirect = plugin_conf.redirect
+  local redirect = plugin_conf.redirect
 
   kong.log("Request from ", country, "/", regione)
   kong.log("Proxy to ", redirect)

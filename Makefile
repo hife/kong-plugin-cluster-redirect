@@ -20,7 +20,12 @@ dev: install
 	done;
 
 lint:
-	@luacheck -q .
+	@luacheck -q kong \
+		--std 'busted' \
+		--globals 'require' \
+		--globals 'ngx' \
+		--no-redefined \
+		--no-unused-args
 
 test:
 	@$(TEST_CMD) spec
